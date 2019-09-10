@@ -1,4 +1,6 @@
-#!/bin/bash -ex
+#!/bin/bash
+
+set -euxo pipefail
 
 if [[ "${homebrew_cleanup}" == "yes" ]]; then
   envman unset --key HOMEBREW_NO_INSTALL_CLEANUP
