@@ -23,7 +23,7 @@ toolkit:
     entry_file: step.sh
 
 inputs:
-- homebrew_cleanup: no
+- homebrew_cleanup: 'no'
   opts:
     title: Cleanup
     description: |
@@ -31,5 +31,5 @@ inputs:
     is_expand: true
     is_required: true
     value_options:
-    - "yes"
-    - "no"
+    - 'yes'
+    - 'no'
